@@ -1,0 +1,117 @@
+Domains Before Pre-processing of AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit1 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Domains After Pre-processing of AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2), ('BountyHunter', 1)]
+Variable:  Unit1 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+
+Selected Variable: Unit0 Order of the values to try: [('BountyHunter', 2), ('BountyHunter', 1)]
+Chosen Value ('BountyHunter', 2)
+Assignment:
+Variable Unit0 Value: ('BountyHunter', 2)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 2), ('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+
+Selected Variable: Unit1 Order of the values to try: [('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('BountyHunter', 1)]
+Chosen Value ('Clockwerk', 1)
+Assignment:
+Variable Unit0 Value: ('BountyHunter', 2)
+Variable Unit1 Value: ('Clockwerk', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 1), ('Clockwerk', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('BountyHunter', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+
+Selected Variable: Unit2 Order of the values to try: [('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('BountyHunter', 1)]
+Chosen Value ('Antimage', 1)
+Assignment:
+Variable Unit0 Value: ('BountyHunter', 2)
+Variable Unit1 Value: ('Clockwerk', 1)
+Variable Unit2 Value: ('Antimage', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Antimage', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 1), ('Antimage', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Antimage', 1)]
+Variable:  Unit3 Domain:  [('BountyHunter', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+
+Selected Variable: Unit3 Order of the values to try: [('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('BountyHunter', 1)]
+Chosen Value ('Tusk', 1)
+Assignment:
+Variable Unit0 Value: ('BountyHunter', 2)
+Variable Unit1 Value: ('Clockwerk', 1)
+Variable Unit2 Value: ('Antimage', 1)
+Variable Unit3 Value: ('Tusk', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Antimage', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Antimage', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1)]
+Variable:  Unit4 Domain:  [('BountyHunter', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1)]
+
+Selected Variable: Unit4 Order of the values to try: [('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('BountyHunter', 1)]
+Chosen Value ('Axe', 1)
+Assignment:
+Variable Unit0 Value: ('BountyHunter', 2)
+Variable Unit1 Value: ('Clockwerk', 1)
+Variable Unit2 Value: ('Antimage', 1)
+Variable Unit3 Value: ('Tusk', 1)
+Variable Unit4 Value: ('Axe', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Antimage', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1)]
+Variable:  Unit4 Domain:  [('Axe', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('BountyHunter', 2)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Antimage', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1)]
+Variable:  Unit4 Domain:  [('Axe', 1)]
+Final Result:
+
+Variable : Unit0 Value : ('BountyHunter', 2)
+Variable : Unit1 Value : ('Clockwerk', 1)
+Variable : Unit2 Value : ('Antimage', 1)
+Variable : Unit3 Value : ('Tusk', 1)
+Variable : Unit4 Value : ('Axe', 1)
+
+
+Total money:  7

@@ -1,0 +1,85 @@
+Domains Before Pre-processing of AC3:
+Variable:  Unit0 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit1 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Domains After Pre-processing of AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2), ('Enchantress', 1)]
+Variable:  Unit1 Domain:  [('Tusk', 2), ('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit0 Order of the values to try: [('Tusk', 2), ('Enchantress', 1)]
+Chosen Value ('Tusk', 2)
+Assignment:
+Variable Unit0 Value: ('Tusk', 2)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Tusk', 2), ('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 2), ('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit1 Order of the values to try: [('Enchantress', 1)]
+Chosen Value ('Enchantress', 1)
+Assignment:
+Variable Unit0 Value: ('Tusk', 2)
+Variable Unit1 Value: ('Enchantress', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit2 Order of the values to try: [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Chosen Value ('Clockwerk', 1)
+Assignment:
+Variable Unit0 Value: ('Tusk', 2)
+Variable Unit1 Value: ('Enchantress', 1)
+Variable Unit2 Value: ('Clockwerk', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1)]
+Variable:  Unit3 Domain:  [('Clockwerk', 1), ('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1)]
+Variable:  Unit3 Domain:  [('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit3 Order of the values to try: [('Axe', 1), ('Tinker', 1), ('OgreMagi', 1), ('OgreMagi', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Chosen Value ('Axe', 1)
+Assignment:
+Variable Unit0 Value: ('Tusk', 2)
+Variable Unit1 Value: ('Enchantress', 1)
+Variable Unit2 Value: ('Clockwerk', 1)
+Variable Unit3 Value: ('Axe', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1)]
+Variable:  Unit3 Domain:  [('Axe', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('Tusk', 2)]
+Variable:  Unit1 Domain:  [('Enchantress', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1)]
+Variable:  Unit3 Domain:  [('Axe', 1)]
+Final Result:
+
+Variable : Unit0 Value : ('Tusk', 2)
+Variable : Unit1 Value : ('Enchantress', 1)
+Variable : Unit2 Value : ('Clockwerk', 1)
+Variable : Unit3 Value : ('Axe', 1)
+
+
+Total money:  6

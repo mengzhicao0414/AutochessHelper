@@ -1,0 +1,19 @@
+##### - variables
+4
+##### - values
+Tusk 1
+DrowRanger 1
+OgreMagi 1
+Tusk 1
+Clockwerk 1
+Tinker 1
+Tusk 1
+Axe 1
+Enchantress 1
+DrowRanger 1
+OgreMagi 1
+OgreMagi 1
+Enchantress 1
+Tusk 1
+##### - money
+2

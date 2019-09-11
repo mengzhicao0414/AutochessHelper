@@ -1,0 +1,15 @@
+##### - variables
+5
+##### - values
+BountyHunter 1
+BountyHunter 1
+BountyHunter 1
+BountyHunter 1
+Clockwerk 1
+Tinker 1
+Tusk 1
+Axe 1
+Enchantress 1
+Antimage 1
+##### - money
+20

@@ -1,0 +1,76 @@
+Domains Before Pre-processing of AC3:
+Variable:  Unit0 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Domains After Pre-processing of AC3: 
+Variable:  Unit0 Domain:  [('Clockwerk', 1), ('Tinker', 1)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1), ('Tinker', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit0 Order of the values to try: [('Clockwerk', 1), ('Tinker', 1)]
+Chosen Value ('Clockwerk', 1)
+Assignment:
+Variable Unit0 Value: ('Clockwerk', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('Clockwerk', 1)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1), ('Tinker', 1)]
+Variable:  Unit2 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Clockwerk', 1), ('Tusk', 1), ('Axe', 1), ('Tinker', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('Clockwerk', 1)]
+Variable:  Unit1 Domain:  [('Tinker', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit1 Order of the values to try: [('Tinker', 1)]
+Chosen Value ('Tinker', 1)
+Assignment:
+Variable Unit0 Value: ('Clockwerk', 1)
+Variable Unit1 Value: ('Tinker', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('Clockwerk', 1)]
+Variable:  Unit1 Domain:  [('Tinker', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('Clockwerk', 1)]
+Variable:  Unit1 Domain:  [('Tinker', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit2 Order of the values to try: [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Chosen Value ('Tusk', 1)
+Fail because out of deadLine, choose the next value
+Chosen Value ('Axe', 1)
+Fail because out of deadLine, choose the next value
+Chosen Value ('Enchantress', 1)
+Fail because out of deadLine, choose the next value
+Chosen Value ('Enchantress', 1)
+Fail because out of deadLine, choose the next value
+Chosen Value ('DrowRanger', 1)
+Fail because out of deadLine, choose the next value
+Chosen Value ('DrowRanger', 1)
+Fail because out of deadLine, choose the next value
+BackTrack because no value available
+BackTrack because no value available
+Chosen Value ('Tinker', 1)
+Assignment:
+Variable Unit0 Value: ('Tinker', 1)
+Domains Before  AC3: 
+Variable:  Unit0 Domain:  [('Tinker', 1)]
+Variable:  Unit1 Domain:  [('Tinker', 1), ('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1), ('Clockwerk', 1), ('Tinker', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1), ('Clockwerk', 1), ('Tinker', 1)]
+Domains After AC3: 
+Variable:  Unit0 Domain:  [('Tinker', 1)]
+Variable:  Unit1 Domain:  [('Clockwerk', 1)]
+Variable:  Unit2 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+Variable:  Unit3 Domain:  [('Tusk', 1), ('Axe', 1), ('Enchantress', 1), ('Enchantress', 1), ('DrowRanger', 1), ('DrowRanger', 1)]
+
+Selected Variable: Unit1 Order of the values to try: [('Clockwerk', 1)]
+Chosen Value ('Clockwerk', 1)
+Fail because out of deadLine, choose the next value
+BackTrack because no value available
+No result
